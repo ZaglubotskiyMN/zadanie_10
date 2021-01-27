@@ -23,7 +23,7 @@ public class HelloWorld {
             System.out.println(bad.getOfroad());
 
         }catch (Exception e){
-            e.printStackTrace();
+            System.out.println(e.getStackTrace());
         }
 
 }
